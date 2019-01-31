@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Streaming Media server with Node.js",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdm4344/streaming-media-assignment.git"
+  },
+  "author": "Jordan Machalek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdm4344/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/jdm4344/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
